@@ -1,0 +1,28 @@
+.greeting {
+  padding: 50px 50px 0 50px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.table-container, .alert {
+  max-width: 420px;
+}
+
+.table-container {
+  text-align: center;
+  font-size: 20px;
+}
+
+@media (max-width: 340px) {
+  div.col {
+    padding: 0;
+  }
+}
+
+@media (min-width: 500px) {
+  .content {
+    padding: 0 50px 0 50px;
+  }
+}
