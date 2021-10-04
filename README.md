@@ -6,8 +6,6 @@
 ***
 ### Информация отображается в реальном времени.
 
-Файл с основным кодом - **index.js**
-
 Использует портал общественного транспорта Санкт-Петербурга:   
 http://transport.orgp.spb.ru/Portal/transport/internalapi/gtfs   
 Также использует GTFS Realtime Transit API:   
