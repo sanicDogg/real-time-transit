@@ -1,9 +1,0 @@
-extends layout
-
-block content
-  div(class='content container-fluid')
-  div(class='greeting')
-    h2(class='mb-4') Выберите остановку
-
-    each val, key in {3192: 'Светлановский проспект', 15495:'Невский проспект', 3284:'Приморская', 1578:'Капитанская', 2064:'Гражданский проспект'}
-      button(data-stop-id=`${key}` type="button" class="btn btn-light m-2")=val
