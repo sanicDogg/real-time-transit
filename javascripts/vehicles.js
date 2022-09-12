@@ -79,6 +79,12 @@ function getBus(routeId) {
         case 1685:
             bus = "151";
             break;
+        case 7642:
+            bus = "230";
+            break;
+        case 7509:
+            bus = "249";
+            break;
 
         // Приморская
         case 1686:
@@ -90,8 +96,11 @@ function getBus(routeId) {
         case 1566:
             bus = "47";
             break;
-        case 3079:
-            bus = "К-162";
+        case 7634:
+            bus = "220";
+            break;
+        case 7640:
+            bus = "261";
             break;
         // Гражданский остановка
         case 1548:
@@ -117,6 +126,15 @@ function getBus(routeId) {
             break;
         case 3812:
             bus = "193";
+            break;
+        case 3832:
+            bus = "199";
+            break;
+        case 7406:
+            bus = "208";
+            break;
+        case 7382:
+            bus = "240";
             break;
     }
 
